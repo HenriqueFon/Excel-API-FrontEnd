@@ -1,0 +1,34 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    /* background-color: #04BF51; */
+    background-color: #01B6C2;
+    height: 7vh;
+}
+
+.link {
+    text-decoration: none;
+    padding: 1em;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1.5em;
+    /* color: #C9C604; */
+    color: black;
+}
+
+.link:hover {
+    background-color: #C9C604;
+    color:black;
+    border-radius: 0.7em;
+    margin-bottom: 0.37em;
+}
+
+.logo {
+     display: inline-flex;
+     background-color: yellow;
+     align-items: center;
+}
