@@ -2,6 +2,7 @@
     background-color: #e7e6ee;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    padding-bottom: 2em;
 }
 
 .button {
@@ -12,4 +13,9 @@
     padding: 0.7em;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #adab04;
 }
