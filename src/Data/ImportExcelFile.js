@@ -4,7 +4,7 @@ export const ImportExcelFile = async (file) => {
     console.log("Arquivo:" + file);
     
     let formData = new FormData();
-    formData.append("file", excelFile, excelFile.name);
+    formData.append("file", file, file.name);
 
     const url = "https://localhost:44346/Excel/Insert-data";
     
