@@ -1,7 +1,5 @@
 import { ImportExcelFile } from "../../Data/ImportExcelFile";
 import "./SendExcel.css";
-import { useState } from 'react';
-import axios from "axios";
 
 const SendExcel = () => {
 
@@ -9,30 +7,11 @@ const SendExcel = () => {
 
     const handleFileChange = async (event) => {
         excelFile = event.target.files[0];
-    
-        let formData = new FormData();
-        formData.append("file", excelFile, excelFile.name);
-
-        const url = "https://localhost:44346/Excel/Insert-data";
-        
-        const response = await axios.post(url, formData, {
-            headers: {
-                'Content-Type': 'multipart/form-data'
-            }
-        })
-        .then(response => {
-            console.log("File uploaded succesfully")
-        })
-        .catch(error => {
-            console.log("Error uploading file")
-            console.error('Error', error)
-        });
+        console.log(excelFile);
     }
 
-    const importFile = () => {
-        console.log("rodei");
-        // console.log(selectedFile);
-        // ImportExcelFile(selectedFile);
+    const importFile = async () => {
+        await ImportExcelFile(excelFile);
     }
 
     return(

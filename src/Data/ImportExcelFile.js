@@ -8,7 +8,7 @@ export const ImportExcelFile = async (file) => {
 
     const url = "https://localhost:44346/Excel/Insert-data";
     
-    const response = await axios.post(url, formData, {
+    await axios.post(url, formData, {
         headers: {
             'Content-Type': 'multipart/form-data'
         }
