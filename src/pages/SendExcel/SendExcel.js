@@ -1,4 +1,4 @@
-import { ImportExcelFile } from "../../Data/ImportExcelFile";
+import { ImportExcelFile } from "../../data/ImportExcelFile";
 import "./SendExcel.css";
 
 const SendExcel = () => {

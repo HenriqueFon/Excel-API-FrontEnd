@@ -1,8 +1,5 @@
-
 const Consult = () => {
-    return(
-        <h1>Consult page</h1>
-    )
+    return <>Oi</>
 }
 
 export default Consult;

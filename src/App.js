@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import Extract from './Components/Extract/Extract';
-import SendExcel from './Components/SendExcel/SendExcel';
-import Consult from './Components/Consult/Consult';
+import Home from './pages/Home/Home';
+import Extract from './pages/Extract/Extract';
+import SendExcel from './pages/SendExcel/SendExcel';
+import Consult from './pages/Consult/Consult';
 
 function App() {
   return (
