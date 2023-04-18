@@ -1,4 +1,5 @@
 import "./Home.css";
+import DownloadButton from "../../components/DownloadButton/DownloadButton";
 
 const Home = () => {
     return(
@@ -6,7 +7,7 @@ const Home = () => {
             <h1>Bem vindo ao ECI, Excel Consultas, para poder usar o software
                 baixe aqui o nosso template.
             </h1>
-            <div><a className = "button" href="https://localhost:44346/Excel/Get-model-file">Baixe aqui nosso template</a></div>
+            <DownloadButton url = 'https://localhost:44346/Excel/Get-model-file' />
         </div>
     )
 }

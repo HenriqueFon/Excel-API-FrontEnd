@@ -1,0 +1,38 @@
+button {
+    background-color: #C9C604;
+    color:black;
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.7em;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    text-decoration: none;
+}
+
+.input-form {
+    margin-bottom: 2em;
+}
+
+.input-form:hover {
+    background-color: #a5a204;
+}
+
+button:hover {
+    background-color: #a5a204;
+}
+
+input {
+    display: none;
+}
+
+label{
+    background-color:  #C9C604;
+    cursor: pointer;
+    color:black;
+    border-radius: 0.7em;
+    border: none;
+    padding: 0.7em;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    text-decoration: none;
+}
